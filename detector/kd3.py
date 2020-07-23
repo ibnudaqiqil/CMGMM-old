@@ -1,6 +1,3 @@
-from sklearn.neighbors import KernelDensity
-import numpy as np
-import sklearn.neighbors.kde as kde
 import numpy as np
 import scipy.integrate as integrate
 import random
@@ -10,6 +7,10 @@ import math
 
 
 class KD3:
+    """
+    Kernel  Densiisty Drift Detection
+
+    """
     def __init__(self, 
             window_size=45, 
             accumulative_threshold=0.00001, 
