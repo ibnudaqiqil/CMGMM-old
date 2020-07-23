@@ -10,6 +10,7 @@ class KD3:
     """
     Kernel  Densiisty Drift Detection
 
+    
     """
     def __init__(self, 
             window_size=45, 
